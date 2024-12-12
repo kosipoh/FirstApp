@@ -28,6 +28,14 @@
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}"
+        },
+        {
+            "type": "go",
+            "name": "debug post.go",
+            "request": "launch",
+            "mode": "auto",
+            "args": [],
+            "program": "c:\\Users\\Администратор\\DevGo\\botProj\\FirstApp\\lib\\post.go"
         }
     ]
 }

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"VSGO/common"
-	"VSGO/lib"
+	"FirstApp/common"
+	"FirstApp/lib"
 	"fmt"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
@@ -65,4 +65,7 @@ func main() {
 		bot.Send(msg)
 
 	}
+
+	lib.Con()
+
 }
