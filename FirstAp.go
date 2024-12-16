@@ -35,6 +35,9 @@ func main() {
 	var txt string
 	var id int64
 
+	lib.CheckUser(9888)
+	return
+
 	for update := range updates {
 		var newb = common.GetButt("/start", "/start")
 		if update.Message == nil && update.CallbackQuery == nil {
@@ -65,7 +68,5 @@ func main() {
 		bot.Send(msg)
 
 	}
-
-	lib.Con()
 
 }
